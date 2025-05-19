@@ -1,0 +1,85 @@
+.gender_admin{
+    width: 1900px;/* */
+}
+
+.tablesorter_200 {
+    width: 200px;
+}
+
+#tablesorterani_collor_1 {
+    background: #AFEE55;
+}
+#tablesorterani_collor_2 {
+    background: #43C7F2;
+}
+
+#menu_toolbar_adm {
+/*width: 500px;*/
+/*margin:0 auto; /*center the menu_toolbar*/
+margin:0px;
+padding:0px;
+
+float: left;/**/
+margin: 0px 30px 0px 0px; /*поля вокруг (верхний, правый, нижний, левый)*/
+
+position: relative;
+height: 31px;
+/*line-height: 31px;/**/
+text-decoration: none;/**/
+margin: 0px;
+font-size: 12px;/**/
+font-weight: 700;/**/
+text-transform: uppercase;/**/
+color: #222;/**/
+text-decoration: underline; /**/
+}
+
+#menu_div_toolbar{
+/* width: 1900px; /**/
+clear: both;
+position: relative; /**/
+top: 0; /**/
+left: 0;
+
+
+z-index: 99;
+} /* Free space to top specialy for menu */
+
+#navigation_toolbar{
+/*background: #1ad627; /*Светло зеленый*/
+ background-image: url("../images/toolbar_4.png"); /**/
+ background-repeat: repeat-x; /**/
+ border-bottom: 1px solid #bcbbbb; /**/
+ text-align: right; /**/
+/* border-top: 1px solid #EEE; /**/
+}
+
+#navigation_toolbar {
+/*position: fixed; /**/
+}
+
+#navigation_toolbar, #menu_div_toolbar, {
+/* width: 100%; /**/
+margin: 0 !important;
+padding: 0 !important;
+}
+
+#menu_div_toolbar, #navigation_toolbar, #menu_toolbar, #toolbar{
+height: 31px; /* menu height */
+}
+
+#menu_div_toolbar:hover,
+#navigation_toolbar:hover,
+#toolbar li a:hover, #toolbar li ul a 
+{
+/*opacity: 0.95;/* Menu transparency on mouse hover*/
+} 
+
+#menu_div_toolbar,
+#navigation_toolbar, 
+#toolbar li a, 
+#menu_div_toolbar:not(:hover), 
+#navigation_toolbar:not(:hover)
+{
+/*opacity: 0.9;/* Menu transparency on mouse out */
+}

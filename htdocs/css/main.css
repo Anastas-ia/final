@@ -1,0 +1,132 @@
+/*   ------ */
+.mess_refresh {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  letter-spacing: 0.08em;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+/*   ------ */
+.reg_h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.reg_div {
+  margin: 30px 0px 0px 0px; /*поля вокруг (верхний, правый, нижний, левый)*/
+}
+/*   ------ */
+.reg-label {
+width: 80px;
+margin: 2px 2px 2px 2px; /*поля вокруг (верхний, правый, нижний, левый)*/
+}
+
+.user-text {
+    color: #f5681c;
+}
+
+.modal-div {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+/*width: 400px;/**/
+
+margin: 30px 0px 100px 0px; /*поля вокруг (верхний, правый, нижний, левый)*/
+}
+
+.modal-div a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: -4px;
+  background: #a56745;
+  transition: width 0.3s;
+}
+
+.modal-div .modal-gen .mess_refresh a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: -4px;
+  background: #a56745;
+  transition: width 0.3s;
+}
+
+/* ----------------------------- */
+.animal-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform-origin: center center;
+  position: relative;
+  z-index: 1;
+}
+
+.animal-ca rd:hover {
+  transform: scale(2);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.animal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.animal-card h3 {
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.animal-card p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+/* ----------------------------- */
+.animal-fix {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform-origin: center center;
+  position: relative;
+  z-index: 1;
+}
+
+.animal-fix img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.animal-fix h3 {
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.animal-fix p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+/* ----------------------------- */
